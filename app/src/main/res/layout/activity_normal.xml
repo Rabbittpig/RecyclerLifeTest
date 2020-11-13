@@ -5,10 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NormalActivity">
-    <TextView
-        android:text="This is a normal activity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"/>
-
+<Button
+    android:id="@+id/btn_exit"
+    android:text="Exit App"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
 </RelativeLayout>
